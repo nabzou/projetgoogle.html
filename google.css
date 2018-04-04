@@ -1,23 +1,13 @@
 
-
-header
+nav
 {
 
 text-align: right;
 	 color: black;
-}
-
-.introduction
-{
-	
-	text-decoration: underline;
+	 font-size: medium;
 
 }
 
-.connexion
-{
-	border-color: 3px blue solid;
-}
 
 	
 
@@ -31,7 +21,101 @@ nav
 
 .gros_logo
 {
-	display: flex;
-justify-content: center;
-align-items: center;
+	margin-top:200px;
+	margin-bottom: 50px;
+	margin-left: 650px;
+	margin-right: 650px;
+}
+
+
+input {
+width:600px;
+  height:30px;
+  margin-bottom:15px;
+  
+}
+
+.container 
+{
+  text-align:center;
+  width:100%;
+  height:auto;
+  padding-top:130px;
+  margin:10px;
+}
+
+.footer a
+{
+  color:#757575;
+  padding:5px;
+  font-size:10pt;
+}
+
+.footer 
+{
+  background:#f2f2f2;
+  font-family:arial;
+  font-color:#757575;
+  padding:5px;
+  bottom:0;
+  position:fixed;
+  width:100%;
+  left:-5px;
+}
+.footer:after 
+{
+  display:block;
+  clear:both;
+  content: "";
+  height:0;
+  overflow:hidden;
+}
+
+.footer-left
+{
+  float:left;
+}
+.footer-right
+{
+  float:right;
+}
+
+.buttons 
+{
+  margin-bottom: 50px;
+  margin-top: 0px;
+  align-items: top;
+  padding:10px;
+
+}
+button
+{
+  background-color:#f2f2f2;
+  border:none;
+  padding:10px;
+  margin:10px;
+  color:#757575;
+  font-size:10pt;
+  font-weight:bold;
+  font-family:arial;
+  border-radius: 2px;
+  margin-bottom: 20px;
+
+ }
+
+a:hover
+{
+  text-decoration:underline;
+}
+button:hover 
+{
+  color: black;
+  border:1px solid #D9D9D9;
+  padding:10px;
+}
+.France
+{
+	text-align:left;
+	margin-top: 10px;
+	font-size: 20px;
 }
